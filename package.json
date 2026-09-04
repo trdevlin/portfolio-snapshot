@@ -1,0 +1,8 @@
+{
+  "name": "portfolio-snapshot",
+  "version": "1.0.0",
+  "description": "Export your crypto portfolio across chains to CSV — one command, no API keys",
+  "main": "index.js",
+  "scripts": {"start": "node index.js"},
+  "dependencies": {"wallet-watcher": "^1.0.2"}
+}
