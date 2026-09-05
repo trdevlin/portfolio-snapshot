@@ -1,6 +1,6 @@
 // portfolio-snapshot — dump all chain balances to CSV.
 const fs = require("fs");
-const { getBalances } = require("wallet-watcher");
+const { getBalances } = require("./balance");
 
 const WALLETS = (process.env.WALLETS || "0xd8dA6BF26964aF9D7eEd9e03e53415D37aA96045").split(",").map(s=>s.trim());
 

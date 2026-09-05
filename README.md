@@ -18,8 +18,7 @@ wallet,chain,symbol,balance,timestamp
 0xd8dA...,polygon,POL,592.719,...
 ```
 
-Balances via [wallet-watcher](https://www.npmjs.com/package/wallet-watcher) —
-public RPCs across Ethereum, Base, Polygon, Arbitrum, Optimism (+ BTC), no
+Balances via public RPCs (self-contained across Ethereum, Base, Polygon, Arbitrum, Optimism (+ BTC), no
 API keys, no signup.
 
 ## Why
